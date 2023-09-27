@@ -1,0 +1,161 @@
+@media screen and (min-width: 900px) {
+  .outer_div {
+    height: 20rem;
+
+    display: flex;
+  }
+  .div1,
+  .div2,
+  .div3,
+  .div4 {
+    padding-top: 20px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #271463;
+  }
+  .logo {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .logo1 {
+    color: rgb(255, 247, 194);
+    font-size: 30px;
+    margin: 10px 15px;
+  }
+  .topic {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 50px;
+    color: rgb(226, 198, 76);
+  }
+  .outer_div p {
+    line-height: 40px;
+
+    color: rgb(255, 247, 194);
+  }
+  .space {
+    height: 2px;
+  }
+  .name {
+    height: 4rem;
+    background-color: #271463;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .name p {
+    color: rgb(226, 198, 76);
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 520px) {
+  .outer_div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .div1,
+  .div2,
+  .div3,
+  .div4 {
+    height: 20rem;
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #271463;
+  }
+  .logo {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .logo1 {
+    color: rgb(255, 247, 194);
+    font-size: 25px;
+    margin: 10px 15px;
+  }
+  .topic {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 50px;
+    color: rgb(226, 198, 76);
+  }
+  .outer_div p {
+    line-height: 40px;
+    font-size: 14px;
+    color: rgb(255, 247, 194);
+  }
+  .space {
+    height: 2px;
+  }
+  .name {
+    height: 4rem;
+    background-color: #271463;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .name p {
+    color: rgb(226, 198, 76);
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .outer_div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .div1,
+  .div2,
+  .div3,
+  .div4 {
+    padding-top: 10px;
+    height: 17rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #271463;
+  }
+  .logo {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .logo1 {
+    color: rgb(255, 247, 194);
+    font-size: 25px;
+    margin: 10px 15px;
+  }
+  .topic {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 50px;
+    color: rgb(226, 198, 76);
+  }
+  .outer_div p {
+    line-height: 40px;
+    font-size: 14px;
+    color: rgb(255, 247, 194);
+  }
+  .space {
+    height: 2px;
+  }
+  .name {
+    height: 4rem;
+    background-color: #271463;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .name p {
+    color: rgb(226, 198, 76);
+    font-size: 10px;
+  }
+}
