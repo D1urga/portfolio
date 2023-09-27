@@ -29,12 +29,9 @@ export default function Home() {
           <h2>Android & Ios Developer </h2>
           <h2>fullstack Web Developer </h2>
           <div className={style.btns}>
-            <Link href="https://www.cricbuzz.com/" target="blank">
-              <h3 className={style.btn1}>Experience</h3>
-            </Link>
-            <Link href="">
-              <h3 className={style.btn2}>Contact info</h3>
-            </Link>
+            <h3 className={style.btn1}>Experience</h3>
+
+            <h3 className={style.btn2}>Contact info</h3>
           </div>
         </div>
       </div>
